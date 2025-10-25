@@ -5,8 +5,7 @@ Google Colab:
 The entire workflow was developed and tested in Google Colab using GPU acceleration (T4/A100).
 
 Library Versions:
-Library	Version
-Python	3.10
+Python =3.10
 PyTorch	2.x
 Torchvision	0.19.x
 W&B	0.17.x
@@ -14,7 +13,6 @@ NumPy	1.26.x
 CUDA	12.1 (Colab default)
 
 Project Structure:
-Section	Description
 Cell 1 – Setup & Install	    Installs required dependencies and authenticates W&B.
 Cell 2 – Dataset Preparation	Loads CIFAR-10 with normalization and augmentation.
 Cell 3 – Model Definition	    Defines modular VGG6 model with configurable activation.
