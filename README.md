@@ -5,12 +5,12 @@ Google Colab:
 The entire workflow was developed and tested in Google Colab using GPU acceleration (T4/A100).
 
 Library Versions:
-Python =3.10
-PyTorch	2.x
-Torchvision	0.19.x
-W&B	0.17.x
-NumPy	1.26.x
-CUDA	12.1 (Colab default)
+Python = 3.10,
+PyTorch = 2.x,
+Torchvision = 0.19.x,
+W&B = 0.17.x,
+NumPy = 1.26.x,
+CUDA = 12.1 (Colab default)
 
 Project Structure:
 Cell 1 – Setup & Install	    Installs required dependencies and authenticates W&B.
