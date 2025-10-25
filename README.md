@@ -5,20 +5,22 @@ Google Colab:
 The entire workflow was developed and tested in Google Colab using GPU acceleration (T4/A100).
 
 Library Versions:
-Python = 3.10,
-PyTorch = 2.x,
-Torchvision = 0.19.x,
-W&B = 0.17.x,
-NumPy = 1.26.x,
-CUDA = 12.1 (Colab default)
+
+- Python	3.10
+- PyTorch	2.x
+- Torchvision	0.19.x
+- W&B	0.17.x
+- NumPy	1.26.x
+- CUDA	12.1 (Colab default)
 
 Project Structure:
-Cell 1 – Setup & Install	    Installs required dependencies and authenticates W&B.
-Cell 2 – Dataset Preparation	Loads CIFAR-10 with normalization and augmentation.
-Cell 3 – Model Definition	    Defines modular VGG6 model with configurable activation.
-Cell 4 – Training & Evaluation	Handles model training, validation, and W&B logging.
-Cell 5 – Sweep Execution	    Runs random hyperparameter search across activations, optimizers, etc.
-Cell 6 – Model Export	        Saves best models (.pth) and creates a downloadable ZIP file.
+
+- Cell 1 – Setup & Install	    Installs required dependencies and authenticates W&B.
+- Cell 2 – Dataset Preparation	Loads CIFAR-10 with normalization and augmentation.
+- Cell 3 – Model Definition	    Defines modular VGG6 model with configurable activation.
+- Cell 4 – Training & Evaluation	Handles model training, validation, and W&B logging.
+- Cell 5 – Sweep Execution	    Runs random hyperparameter search across activations, optimizers, etc.
+- Cell 6 – Model Export	        Saves best models (.pth) and creates a downloadable ZIP file.
 
 How To Run?
 
